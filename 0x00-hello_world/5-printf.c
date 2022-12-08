@@ -10,7 +10,7 @@ int main(void)
 	printf("with proper grammar, but the outcome is a piece of art,\n");
 /**
  * return - Short description
- * @0: Returns zero integer to main for the end of the compilation
+ * 0: Returns zero integer to main for the end of the compilation
  */
 	return (0);
 }
