@@ -1,5 +1,5 @@
 #include <stdio.h>
-7
+
 /**
  * int main - Short description
  * main: This is a function where all the commands and compilation starts from
