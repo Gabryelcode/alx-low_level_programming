@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - Prints the phrase with proper grammar, 
+ * main - prints the phrase with proper grammer,
  * but the outcome is a piece of art,
  *
  * Return: Always 0 (Succes)
