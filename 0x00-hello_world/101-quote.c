@@ -1,13 +1,12 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
- * main - prints the clause "and that piece of art is  useful - Dora Kprpa,  
- * 2015-10-19, with .a new line
- *
- * Return: Always  0  (Success)
+ * main - prints the entry result
+ * 
+ * Returns: Always 0 (Success)
  */
 int main(void)
 {
-	write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
+	write(2, "and that piece of art is useful\" - Dora Korpar, 25-10-19\n", 59);
 	return (1);
 }
