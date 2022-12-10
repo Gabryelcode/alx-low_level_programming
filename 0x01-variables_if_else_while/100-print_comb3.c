@@ -16,10 +16,11 @@ int main(void)
 			{
 				putchar(m);
 				putchar(n);
-			if (m != 56 || n != 57)
-				putchar(',');
-				putchar(' ');
-
+				if (m != 56 || n != 57)
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
 		}
 	}
