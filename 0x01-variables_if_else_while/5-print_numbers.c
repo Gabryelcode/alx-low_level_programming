@@ -1,14 +1,19 @@
 #include <stdio.h>
-
+/**
+ * main - Main Entry
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	int x = 0;
-	
+
 	while (x <= 9)
 	{
-		printf("%d\n", x);
+		printf("%d", x);
 		x++;
 	}
+	printf("\n");
 
 	return (0);
 }
