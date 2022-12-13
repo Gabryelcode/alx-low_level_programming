@@ -4,7 +4,7 @@
  * main - Entry point
  *
  * Description: Return value
- * Returns: Integer value 1 to main and end the program
+ * Return: Integer value 1 to main and end the program
  */
 int main(void)
 {
