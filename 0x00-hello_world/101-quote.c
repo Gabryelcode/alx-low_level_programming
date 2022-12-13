@@ -1,11 +1,10 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
- * main - prints and that piece of art is useful -
- * Dora Korpar, 2015-10-19
- * folowed by a new line
+ * main - Entry point
  *
- * Returns: Always 0 (Success)
+ * Description: Return value
+ * Returns: Integer value 1 to main and end the program
  */
 int main(void)
 {
