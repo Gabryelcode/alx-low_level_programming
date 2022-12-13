@@ -1,10 +1,10 @@
+#include "main.h"
 /**
  * print_sign - checks for positive and negative integers
  * @n: integer to be checked
  *
  * Return: 1 or 0 or -1, if number is greater than zero, zero or less than zero
  */
-#include "main.h"
 int print_sign(int n)
 {
 	if (n > 0)
@@ -19,7 +19,7 @@ int print_sign(int n)
 	}
 	else if (n < 0)
 	{
-		_putchar('-')
+		_putchar('-');
 		return (-1);
 	}
 }
