@@ -1,5 +1,9 @@
 #include "main.h"
-
+/**
+ * main - Prints _putchar
+ *
+ * Return: Always 0 (Succes)
+ */
 int main(void)
 {
 	_putchar('_');
