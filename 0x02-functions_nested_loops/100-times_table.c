@@ -29,7 +29,7 @@ void print_times_table(int n)
 				}
 				if (c > 9)
 				{
-					printf(" ");
+					printf(",");
 					printf(" ");
 					printf(" ");
 					printf("%d", c);
