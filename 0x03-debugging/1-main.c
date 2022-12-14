@@ -1,5 +1,5 @@
 #include <stdio.h>
-7
+
 /**
 * main - causes an infinite loop
 * Return: 0
