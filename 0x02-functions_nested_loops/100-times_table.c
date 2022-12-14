@@ -19,9 +19,16 @@ void print_times_table(int n)
 				{
 					printf("%d", c);
 				}
-				if (c >= n || b != 0)
+				if (c < 10 || b != 0)
 				{
 					printf(",");
+					printf(" ");
+					printf(" ");
+					printf(" ");
+					printf("%d", c);
+				}
+				if (c > 9)
+				{
 					printf(" ");
 					printf(" ");
 					printf(" ");
