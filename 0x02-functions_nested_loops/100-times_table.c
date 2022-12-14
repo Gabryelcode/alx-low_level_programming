@@ -27,10 +27,16 @@ void print_times_table(int n)
 					printf(" ");
 					printf("%d", c);
 				}
-				if (c > 9)
+				if (c > 9 && c < 100)
 				{
 					printf(",");
 					printf(" ");
+					printf(" ");
+					printf("%d", c);
+				}
+				if (c > 99)
+				{
+					printf(",");
 					printf(" ");
 					printf("%d", c);
 				}
