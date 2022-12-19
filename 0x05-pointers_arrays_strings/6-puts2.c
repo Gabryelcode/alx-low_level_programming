@@ -6,19 +6,17 @@
  */
 void puts2(char *str)
 {
-	int index = 0, l;
+	int index;
 
 	/*finds string length without null char*/
-	while (str[index] != '\0')
-		index++;
-	for (l = 0; l < index; l++)
+	for (index = 0; str[index] != '\0'; index++)
 	{
-		if (l == 0)
-			printf("%c", str[l]);
-		else if (l > 0 && l < index)
+		if (index == 0)
+			printf("%c", str[index]);
+		else if (index > 0)
 		{
-			l++;
-			printf("%c", str[l]);
+			index++;
+			printf("%c", str[index]);
 		}
 	}
 	printf("\n");
