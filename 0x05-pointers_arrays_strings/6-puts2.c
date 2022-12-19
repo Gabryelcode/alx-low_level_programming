@@ -11,13 +11,8 @@ void puts2(char *str)
 	/*finds string length without null char*/
 	for (index = 0; str[index] != '\0'; index++)
 	{
-		if (index == 0)
+		if (index % 2 == 0)
 			_putchar(str[index]);
-		else if (index > 0)
-		{
-			index++;
-			_putchar(str[index]);
-		}
 	}
 	_putchar('\n');
 }
