@@ -11,13 +11,15 @@ void puts2(char *str)
 	/*finds string length without null char*/
 	while (str[index] != '\0')
 		index++;
-	/*swaps the string by looping to half the string*/
 	for (l = 0; l < index; l++)
 	{
 		if (l == 0)
 			printf("%c", str[l]);
-		else if (l > 0 && str[l] % 2 == 0)
+		else if (l > 0 && l < index)
+		{
+			l++;
 			printf("%c", str[l]);
+		}
 	}
 	printf("\n");
 }
