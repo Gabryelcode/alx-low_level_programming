@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 /**
  * puts2 - prints the characters of a string
  * @str: receives the character
@@ -12,12 +12,12 @@ void puts2(char *str)
 	for (index = 0; str[index] != '\0'; index++)
 	{
 		if (index == 0)
-			printf("%c", str[index]);
+			_putchar(str[index]);
 		else if (index > 0)
 		{
 			index++;
-			printf("%c", str[index]);
+			_putchar(str[index]);
 		}
 	}
-	printf("\n");
+	_putchar('\n');
 }
