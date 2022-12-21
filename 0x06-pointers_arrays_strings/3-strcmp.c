@@ -3,19 +3,19 @@
  * @s1: receives the first string
  * @s2: receives the second string
  *
- * Return: an integer if condition is met
+ * Return: the difference of the two string lengths if condition is met 
  */
 int _strcmp(char *s1, char *s2)
 {
 	int a, b;
 
-	for (a = 0; s1[a] != '\0'; a++)
-		;
-	for (b = 0; s2[b] != '\0'; b++)
-		;
-	if (a < b)
-		return (-15);
-	else if (a > b)
-		return (15);
-	return (0);
+	for (a = 0; s1[a] != '\0' && s2[a] != '\0'; a++)
+		if (s1[a] != s2[a])
+		{
+			b = s1[a] - s2[a];
+			break;
+		}
+		else
+			b = s1[a] - s2[a];
+	return (b);
 }
