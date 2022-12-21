@@ -3,7 +3,7 @@
  * @s1: receives the first string
  * @s2: receives the second string
  *
- * Return: the difference of the two string lengths if condition is met 
+ * Return: the difference of the two string lengths if condition is met
  */
 int _strcmp(char *s1, char *s2)
 {
