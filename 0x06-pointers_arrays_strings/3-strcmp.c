@@ -17,6 +17,6 @@ int _strcmp(char *s1, char *s2)
 		return (-15);
 	else if (a > b)
 		return (15);
-	else
+	else if (a == b)
 		return (0);
 }
