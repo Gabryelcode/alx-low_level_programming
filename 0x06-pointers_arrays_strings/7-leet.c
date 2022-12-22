@@ -6,30 +6,23 @@
  */
 char *leet(char *s)
 {
-	int a;
+	int a, i;
+	int s1[] = {97, 101, 111, 116, 108};
+	int s2[] = {65, 69, 79, 84, 76};
+	int new[] = {54, 51, 48, 55, 49};
 
-	for (a = 0; s[a] != '\0'; a++)
+	a = 0;
+	while (s[a] != '\0')
 	{
-		if (s[a] == 97)
-			s[a] = s[a] - 45;
-		else if (s[a] == 65)
-			s[a] = s[a] - 13;
-		else if (s[a] == 101)
-			s[a] = s[a] - 50;
-		else if (s[a] == 69)
-			s[a] = s[a] - 18;
-		else if (s[a] == 111)
-			s[a] = s[a] - 63;
-		else if (s[a] == 79)
-			s[a] = s[a] - 31;
-		else if (s[a] == 116)
-			s[a] = s[a] - 61;
-		else if (s[a] == 84)
-			s[a] = s[a] - 29;
-		else if (s[a] == 108)
-			s[a] = s[a] - 59;
-		else if (s[a] == 76)
-			s[a] = s[a] - 27;
+		for (i = 0; i < 5; i++)
+		{
+			if (s[a] == s1[i] || s[a] == s2[i])
+			{
+				s[a] = new[i];
+				break;
+			}
+		}
+		a++;
 	}
 	return (s);
 }
