@@ -1,5 +1,5 @@
 /**
- * leet - capitalizes all first letter of words of a string
+ * leet - encodes a string to 1337
  * @s: receives the pointer
  *
  * Return: the string
