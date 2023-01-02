@@ -5,7 +5,7 @@
  * @dest: input pointer to char type
  *    represents the pointer to the
  *    block of memory to fill
- * @char: input pointer to char type
+ * @src: input pointer to char type
  *    represents the memory source to
  *    fill dest
  * @n: unsigned int variable
