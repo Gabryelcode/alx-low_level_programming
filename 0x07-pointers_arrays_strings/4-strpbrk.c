@@ -5,7 +5,8 @@
  * @s: pointer to string input
  * @accept: substring prefix to look for
  *
- * Return: the string if pointer accept is equal to s and returns NULL if otherwise
+ * Return: the string if pointer accept is
+ * equal to s and returns NULL if otherwise
  */
 char *_strpbrk(char *s, char *accept)
 {
