@@ -6,7 +6,7 @@
  * @argv: argument vector
  * Return: 0 if argument is two and 1 if argument is less than 2
  */
-int main(int argc, char *argv[] __attribute__((unused)))
+int main(int argc, char *argv[])
 {
 	int i, mul, m;
 
