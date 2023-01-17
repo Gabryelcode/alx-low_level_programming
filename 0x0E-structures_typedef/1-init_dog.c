@@ -1,5 +1,4 @@
 #include "dog.h"
-
 /**
  * init_dog - initializing dog
  * @d: pointer to struct dog
@@ -7,7 +6,7 @@
  * @age: receives age
  * @owner: pointer to owner
  */
-void init_dog(struct dog *d, char *name, float *age, char *owner)
+void init_dog(struct dog *d, char *name, float age, char *owner)
 {
 	if (d)
 	{
