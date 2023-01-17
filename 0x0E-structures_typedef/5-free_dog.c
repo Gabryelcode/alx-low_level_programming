@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
  * free_dog - initializing dog
- * @d: struct d which recieves the pointer to the variables
+ * @d: pointer to free dog
  */
 void free_dog(dog_t *d)
 {
